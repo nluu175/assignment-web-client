@@ -48,12 +48,9 @@ class HTTPClient(object):
         port = ""
 
         if netloc.find(":") == -1:
-            # not netloc
             host = netloc
             port = 80
         else:
-            #  netloc
-            parsed_netloc = re.search("(.+):(.+)", netloc)
             host = socket.gethostbyname(parsedUrl.hostname)
             port = parsedUrl.port
 
