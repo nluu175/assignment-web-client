@@ -18,6 +18,9 @@
 # Write your own HTTP GET and POST
 # The point is to understand what you have to send and get experience with it
 
+# Code is written by Nhat Minh, Luu - 2023
+
+
 import sys
 import socket
 import re
